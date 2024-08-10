@@ -1,0 +1,213 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family:Verdana, Geneva, Tahoma, sans-serif Georgia, Times, 'Times New Roman', serif
+}
+html{
+    scroll-behavior: smooth;
+}
+
+/*bigscreen-nav*/
+nav,
+.nav-links{
+    display: flex;
+}
+nav
+{
+  justify-content: space-around;
+  align-items: center;  
+  height: 17vh;
+}
+.nav-links{
+    gap: 2rem;
+    list-style: none;
+    font-size: 1.5rem;
+}
+/*the links*/
+a{
+    text-decoration: none;
+    color: black;
+  
+}
+    
+
+a:hover{
+    color: gray;
+    text-decoration: underline;
+    text-underline-offset: 0.7rem;
+    transition: all 0.3s ease;
+}
+.logo{
+    font-size: 1.8rem;
+}
+.logo:hover{
+    cursor: default;
+}
+
+/*the 3strips menu*/
+#humbeger-nav{
+    display: none;
+}
+.humbeger-menu{
+    display: inline-block;
+    position: relative;
+}
+.humbeger-icon{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 24px;
+    width: 30px;
+    cursor: pointer;
+}
+
+.humbeger-icon span{
+    width:100%;
+    height: 2px;
+    background-color: black;
+    transition: all 0.3 ease-in-out;
+}
+.menu-links{
+    position: absolute;
+    top: 100%;
+    right: 0;
+    background-color: white;
+    width: fit-content;
+    max-height: 0;
+    overflow: hidden;
+    transition: all 0.3ms ease-in-out;
+}
+.menu-links ,a{
+   display: block;
+   padding: 10px;
+   text-align: center;
+   font-size: 1.5rem;
+   text-decoration: none;
+}
+.menu-links li{
+    list-style: none;
+}
+
+.contact_intro{
+    width: 100%;
+    height: 70%;
+   background-image: url(pexels-pixabay-207456.jpg);
+  background-position:center;
+   background-size: cover;
+   background-repeat: no-repeat;
+
+   background-attachment: fixed
+  
+   
+   
+   
+} 
+/* this is the work of emmanuel nyarko 0534086538 
+emmanuelnyarko284@gmail.com */
+
+.contact_container{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    margin-top: 5rem;
+    gap: 3rem;
+}
+
+
+.contact_box{
+    width: 15%;
+
+    border: 2p solid black;
+    text-align: center;
+    box-shadow: 5px 3px 9px rgb(151, 151, 151);
+ word-break: break-all;
+ padding: 10px;
+}
+
+.contact_box p{
+margin-top: 2.4rem;
+}/* this is the work of emmanuel nyarko 0534086538 
+emmanuelnyarko284@gmail.com */
+
+form{
+    
+      width: 60%;
+     
+    box-shadow: 0px 2px 9px rgb(151, 151, 151);
+    border-radius: 10px;
+    margin-top: 4rem;
+  }
+  .container{
+    margin-top: 3rem;
+    width: 100%;
+   
+    text-align: center;
+    
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    
+  }
+  h1{
+      cursor: default;
+      height: 2rem;
+      margin-top: 2px;
+  }
+  h1 span{
+     color: rgb(74, 241, 65);
+      text-decoration: underline;
+      text-underline-offset: 3px;
+     
+  }
+  input{
+      width: 90%;
+      height: 7vh;
+      align-self: center;
+      color: black;
+      font-size: 14px;
+      outline: none;
+      border: none;
+      background-color: transparent;
+      border-bottom: 2px solid black;
+      margin-top: -.4rem
+  }.parallax{
+    width: 100%;
+    height: 100vh;
+  }
+  /* form btn */
+  .login{
+      align-self: center;
+      width: 40%;
+      font-size: 19px;
+      border-radius: 19px;
+      height: 6vh;
+     margin-bottom: 7px;
+     
+     
+  }
+  .login:nth-child(2){
+    width: 30%;
+    border-radius: 0;
+  }
+  textarea{
+  max-width: 90%;
+ min-height: 16vh ;
+  min-width: 90%;
+  place-self: center;
+  margin-top: -1.2rem;
+  
+ 
+  }/* this is the work of emmanuel nyarko 0534086538 
+emmanuelnyarko284@gmail.com */
+  
+  .map_flex{
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    width: 100%;
+   
+  }/* this is the work of emmanuel nyarko 0534086538 
+emmanuelnyarko284@gmail.com */
+ 
